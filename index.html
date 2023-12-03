@@ -1,0 +1,26 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gallery - Risou</title>
+	<link rel="icon" type="image/x-icon" href="{{ "/assets/icon/favicon.ico" | relative_url }}">
+</head>
+<body>
+	<h1>Risou Gallery</h1>
+
+	<ol>
+		{% for work in site.works %}
+		<li>{{ work.title }}
+			[<a href="{{ work.url | relative_url }}">show</a>]
+		</li>
+		{% endfor %}
+	</ol>
+
+	<hr>
+	<p>&#169; 2023 Risou</p>
+</body>
+</html>

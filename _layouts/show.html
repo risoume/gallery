@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - Risou</title>
+    <link rel="icon" type="image/x-icon" href="{{ "/assets/icon/favicon.ico" | relative_url }}">
+<!--     <script src="{{ "/assets/js/p5.min.js" |  relative_url }}" type="text/javascript" charset="utf-8" defer></script> 
+ -->    
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+    <script src="{{ "/assets/js/sketch/" | append: page.js | append: ".js" | relative_url }}" type="text/javascript" charset="utf-8" defer></script>
+</head>
+<body>
+    <button onclick="generate()">random</button>
+	<button onclick="saveImg()">save</button>
+	<button onclick="highQuality()" id="HQ">HQ</button>
+	<div id="sketch-container"></div>
+</body>
+</html>

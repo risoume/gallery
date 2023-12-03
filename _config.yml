@@ -1,0 +1,10 @@
+collections:
+  works:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "works"
+    values:
+      layout: "show"
