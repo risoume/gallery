@@ -1,7 +1,7 @@
 // Risou, 2023
 // risoume.github.io
 
-let title = "Boring-Spider";
+let title = "Boring-Spider-Dark";
 
 let palette = ['#0CA5B0', '#4E3F30', '#FEFEEB', '#F8F4E4', '#A5B3AA'];
 

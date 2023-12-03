@@ -1,7 +1,7 @@
 // Risou, 2023
 // risoume.github.io
 
-let title = "New-Signatures";
+let title = "New-Signatures-Dark";
 
 let paletteNode = ['#9DC9AC', '#FFFEC7', '#F56218', '#FF9D2E', '#919167'];
 let palette = ['#01BEFE', '#FFDD00', '#FF7D00', '#FF006D', '#ADFF02', '#8F00FF'];
