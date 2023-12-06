@@ -4,7 +4,7 @@
 let title = "New-Signatures-Dark";
 
 let paletteNode = ['#9DC9AC', '#FFFEC7', '#F56218', '#FF9D2E', '#919167'];
-let palette = ['#01BEFE', '#FFDD00', '#FF7D00', '#FF006D', '#ADFF02', '#8F00FF'];
+let palette = ['#00A5E3', '#8DD7BF', '#FF96C5', '#FF5768', '#FFBF65'];
 
 let numTriangles = 5;
 let nodeSize = 5;
