@@ -2,3 +2,4 @@
 _site
 mathjax
 *.gem
+/assets/js/p5.min.js
