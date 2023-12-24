@@ -22,7 +22,8 @@
 	</p>
 
 	<ol>
-		{% for work in site.works %}
+		{% assign my_works = site.works | sort: "number" %}
+		{% for work in my_works %}
 		<li>{{ work.title }}
 			[<a href="{{ work.url | relative_url }}">show</a>]
 		</li>
