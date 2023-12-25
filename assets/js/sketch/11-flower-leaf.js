@@ -56,7 +56,7 @@ class Leaves {
 			p.x = this.r * cos(TWO_PI * i / points);
 			p.y = this.r * sin(TWO_PI * i / points);
 			fill(random(palette));
-      		this.branch(p.x, p.y, size, 1, p.heading());
+      		this.branch(p.x, p.y, size, p.heading());
 			
 			q.x = this.r * cos((TWO_PI * i + PI) / points);
 			q.y = this.r * sin((TWO_PI * i + PI) / points);
@@ -66,7 +66,7 @@ class Leaves {
 		pop();
 	}
 
-	branch(x, y, size, dir, a) {
+	branch(x, y, size, a) {
 		push();
 		translate(x, y);
 		rotate(a + PI/2);
