@@ -4,7 +4,6 @@
 let title = "Gradient";
 
 let palette = ['#F0D8A8', '#3D1C00', '#86B8B1', '#F2D694', '#FA2A00'];
-let palette2 = ['#F0D8A8', '#3D1C00', '#86B8B1', '#F2D694', '#FA2A00'];
 
 function setup() {
 	let canvas = createCanvas(600, 600);
@@ -53,7 +52,7 @@ class Grid {
 	
 	display() {
 		let c1 = random(palette);
-		let c2 = random(palette2);
+		let c2 = random(palette);
 		
 		let d;
 		let r, g, b;
