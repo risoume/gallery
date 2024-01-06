@@ -5,8 +5,6 @@ let title = "Gardening";
 
 let palette = ['#00A5E3', '#8DD7BF', '#FF96C5', '#FF5768', '#FFBF65'];
 
-let pad = 0;
-
 function setup() {
 	let canvas = createCanvas(600, 600);
 	canvas.parent('sketch-container');
@@ -17,9 +15,8 @@ function setup() {
 function draw() {
 	background(255);
 	noStroke();
-	translate(pad, pad);
 	let n = 10;
-	let s = (width - 2*pad) / n;
+	let s = width / n;
 	let mult = 0.8;
 
 	let grids = [];
@@ -63,7 +60,6 @@ class Grid {
 		pop();
 	}
 }
-
 
 
 // Toolbar

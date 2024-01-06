@@ -5,8 +5,6 @@ let title = "Jungle";
 
 let palette = ['#AAFF00', '#FFAA00', '#FF00AA', '#AA00FF', '#00AAFF'];
 
-let pad = 0;
-
 function setup() {
 	let canvas = createCanvas(600, 600);
 	canvas.parent('sketch-container');
@@ -17,9 +15,8 @@ function setup() {
 function draw() {
 	background(255);
 	noStroke();
-	translate(pad, pad);
 	let n = 10;
-	let s = (width - 2*pad) / n;
+	let s = width / n;
 	let mult = 0.8;
 
 	let grids = [];
@@ -63,7 +60,6 @@ class Grid {
 		pop();
 	}
 }
-
 
 
 // Toolbar
